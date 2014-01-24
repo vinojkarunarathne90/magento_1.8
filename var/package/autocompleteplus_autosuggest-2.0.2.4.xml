@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>autocompleteplus_autosuggest</name>
+    <version>2.0.2.4</version>
+    <stability>stable</stability>
+    <license uri="http://www.autocompleteplus.com/privacy">AC+</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>AutoComplete+ InstantSearch</summary>
+    <description>AutoComplete+ InstantSearch triples visitor conversion, optimizes search, and offers promotions through state-of-the-art contextual suggestions dropdown. Since suggestions are lightning fast, accurate, and contextual - visitors find exactly what they want - faster.</description>
+    <notes>* compilation compatible;</notes>
+    <authors><author><name>Adar</name><user>auto-converted</user><email>magento@autocompleteplus.com</email></author></authors>
+    <date>2014-01-09</date>
+    <time>08:42:40</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="autocompleteplus"><dir name="system"><dir name="config"><file name="button.phtml" hash="253b23577c7fa56a9acb7c8e6e3cc408"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="autocompleteplus.xml" hash="b020b3d26df5358860ca502e19550881"/></dir><dir name="template"><dir name="autocompleteplus"><file name="inject.phtml" hash="eb05b34819ccfad8eca8d716d0364f94"/></dir></dir></dir></dir></dir></target><target name="magelocal"><dir name="Autocompleteplus"><dir name="Autosuggest"><dir name="Adminhtml"><dir name="Model"><file name="Attributes.php" hash="0932b622987bc9071e13505419b81fbb"/><file name="Button.php" hash="66a5464c954aec74e9f126664c661cd9"/></dir></dir><dir name="Block"><dir name="Adminhtml"><file name="Button.php" hash="904a6d3b27769644e1b92dcd84b67094"/></dir></dir><dir name="controllers"><file name="CategoriesController.php" hash="1445c431fc2880bfeb673a1282e6fee7"/><file name="ProductsController.php" hash="f10df4400ecbeb04bb68ac3b66c21c54"/><file name="SearchesController.php" hash="280ee8eaa5b5fe1f70ce67eb3399dc65"/></dir><dir name="etc"><file name="config.xml" hash="2bcc131ae72e89686a0d5d5eb6791dbf"/><file name="system.xml" hash="22e9089fc0742ce60f6844b04c3a1790"/></dir><dir name="Helper"><file name="Data.php" hash="25559015acbbc6f26b558362ca212ee9"/></dir><dir name="Model"><file name="Observer.php" hash="ab259ff160a9e0e5af2fa29e9cbde7ea"/><dir name="Adminhtml"><file name="Attributes.php" hash="1090ba157a3b7a130a49ba5027755137"/></dir></dir><dir name="sql"><dir name="autosuggest_setup"><file name="mysql4-install-2.0.1.1.php" hash="a387b6f8ebd1667db5c4b247116b11b8"/><file name="mysql4-upgrade-2.0.1.3-2.0.2.2.php" hash="b21ca37b598130205655f51a1c4b0b31"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Autocompleteplus_Autosuggest.xml" hash="29a7d77faf602e2acbd56c7527c600cf"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

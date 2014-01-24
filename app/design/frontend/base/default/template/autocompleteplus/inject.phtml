@@ -1,0 +1,21 @@
+<?php
+$storeId=Mage::app()->getStore()->getStoreId();
+
+$helper=Mage::helper('autosuggest');
+
+$uuid=$helper->getKey();
+
+$onCatalog = false;
+
+$product=Mage::registry('current_product');
+
+$sku='';
+
+$productUrl='';
+
+if($product) {
+    $sku = $product->getSku();
+    $productUrl=$product->getProductUrl();
+}
+?>
+<script type="text/javascript" src="https://acp-magento.appspot.com/js/acp-magento.js?v=2&store=<?php echo $storeId?>&UUID=<?php echo $uuid?>&product_url=<?php echo urlencode($productUrl)?>&product_sku=<?php echo $sku?>"></script>
